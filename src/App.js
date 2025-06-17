@@ -6,7 +6,8 @@ export default function App() {
   const [content, setContent] = useState("");
   const [editId, setEditId] = useState(null);
 
-const API_URL = "http://localhost:5000/api/todos";
+// const API_URL = "http://localhost:5000/api/todos";
+const API_URL = "https://todo-backend-vercel.onrender.com"
 
 
   useEffect(() => {
